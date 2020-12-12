@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="Rodrigo Guarneros">
     <meta name="Project1" content="Gas Stations v.1.0">
-    <title>Humidity</title>
+    <title>Temperature</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
 
     <!-- Bootstrap core CSS -->
-<link href="/Assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="WebVisualizatons/Assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -76,8 +76,8 @@
       <p class="leadtext-muted">How latitude affects the weather?</p>
       <p>
         <a href="/Visual_cloud.html" class="btn btn-secondary my-2">Cloudiness</a>
-        <a href="/Visual_Humidity.html" class="btn btn-success my-2">Humidity</a>
-        <a href="/visualization_temp.html" class="btn btn-secondary my-2" >Temperature</a>
+        <a href="/Visual_Humidity.html" class="btn btn-secondary my-2">Humidity</a>
+        <a href="/visualization_temp.html" class="btn btn-success my-2" >Temperature</a>
         <a href="/Visual_wind.html" class="btn btn-secondary my-2" >Wind speed</a>
         <a href="/Comparation.html" class="btn btn-secondary my-2" >Comparison</a>
         <a href="/Database.html" class="btn btn-secondary my-2" >Database</a>
@@ -118,48 +118,49 @@
       </div>
   </div>
 </nav>
-  
+
   <div class="container content">    
     <div class="row">
         <div class="col-md-8">
             <div class="col-md-40">
               <br>
-                <h3>Humidity</h3>
+                <h3>Max Temperature</h3>
                 <hr>
                 <div class="thumbnail">
-                    <img class="img-thumbnail float-left" src="/Resources/City Latitude vs Humidity.png" width="100%" alt="temperature" id="imgprincipal">
+                    <img class="img-thumbnail float-left" src="/WebVisualizatons/Resources/City Latitude vs Temperature.png" width="100%" alt="temperature" id="imgprincipal">
                 </div>
-                <p>The reason humidity, which is a measure of water vapor suspended in the air, is such an important factor in weather and climate is because water contains extra energy at everyday temperatures.</p> 
-                <p>At leat at this point, there is not evidence of an statiscal correlation between Latitude and humidiy.</p>
-                <p class="conclusion">Lets say that the data do not let us conclude something interesting, only that the minimal humidity could be present in the tropics.</p>
+                <p>The equator receives the most direct sunlight and therefore the most solar energy. In general, the climate zone between 16 degrees north and 16 degrees south latitude has average temperatures above 20°C. Elevation and weather patterns like thunderstorms influence the local equator temperatures as well.</p> 
+                <p>The north pole (i.e. Parallel 80 north) reaches lower temperatures of -20°C or so.</p>
+                <p>The temperature is more uniform in the south of the equator (parallel 0) than in the north, where the temperature differences are more pronounced.</p>
+                <p class="conclusion">There is not doubt that we have a pattern between Latitude and temperature around the world. At least during the time of the information obtained</p>
             </div>
         </div>
         <!--visualization adjustments-->
         <div class="col-md-4">
-            <div class="col-md-12">
-                <br>
-                <h3>Visualizations</h3>
-                <hr>
-                <div class="row">
-                    <div class="col-4 col-md-6">
-                        <a href="/visualization_temp.html"><img src="/Resources/City Latitude vs Temperature.png" width="125%"  alt="Temperature" >
-                        </a> 
-                    </div>
-                    <div class="col-4 col-md-6">
-                        <a href="/Visual_Humidity.html"><img src="/Resources/City Latitude vs Humidity.png" width="125%" alt="humidity" id="image1"></a>
-                    </div>
-               
-                    <div class="col-4 col-md-6">
-                        <a href="/Visual_cloud.html"><img src="/Resources/City Latitude vs Cloudiness.png" width="125%"  alt="cloudiness"></a>
-                    </div>
+          <div class="col-md-12">
+              <br>
+              <h3>Visualizations</h3>
+              <hr>
+              <div class="row">
+                  <div class="col-4 col-md-6">
+                    <a href="/visualization_temp.html"><img src="/WebVisualizatons/Resources/City Latitude vs Temperature.png" width="125%"  alt="Temperature" id="image1">
+                    </a> 
+                  </div>
+                  <div class="col-4 col-md-6">
+                      <a href="/Visual_Humidity.html"><img src="/WebVisualizatons/Resources/City Latitude vs Humidity.png" width="125%" alt="humidity"></a>
+                  </div>
+             
+                  <div class="col-4 col-md-6">
+                      <a href="/Visual_cloud.html"><img src="/WebVisualizatons/Resources/City Latitude vs Cloudiness.png" width="125%"  alt="cloudiness"></a>
+                  </div>
 
-                    <div class="col-4 col-md-6">
-                        <a href="/Visual_wind.html"><img src="/Resources/City Latitude vs Wind Speed.png"width="125%"  alt="wind speed"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                  <div class="col-4 col-md-6">
+                      <a href="/Visual_wind.html"><img src="/WebVisualizatons/Resources/City Latitude vs Wind Speed.png"width="125%"  alt="wind speed"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 </body>
 </html>
