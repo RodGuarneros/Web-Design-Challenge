@@ -2,7 +2,7 @@
 ## Creating a visualization for data analysis
 ### By Rodrigo Guarneros
 
-The visualization is available in my main website (please, click here): https://rodguarneros.github.io/Web-Design-Challenge1/
+The visualization is available in my main website (please, click here): https://rodguarneros.github.io/Web-Design-Challenge/
 
 Here you are going to see a better way to present a data analysis with a Dashboard.
 
